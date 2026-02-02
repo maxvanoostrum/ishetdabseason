@@ -15,49 +15,45 @@
       align-items: center;
       justify-content: center;
       height: 100vh;
-      margin: 0;
       background: #111;
       color: #fff;
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial;
       overflow: hidden;
-    }
-    @keyframes bounce {
-      0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
-      40% { transform: translateY(-15px); }
-      60% { transform: translateY(-7px); }
+      text-align: center;
     }
     .main-word {
       font-size: 20vh;
       font-weight: 800;
       text-transform: uppercase;
       line-height: 1;
-      letter-spacing: .02em;
+      letter-spacing: 0.02em;
     }
     .sub-text {
       font-size: 5vh;
       margin-top: 2vh;
-      font-weight: 400;
       text-transform: uppercase;
-      opacity: 0.7;
-      animation: bounce 2s infinite;
+      opacity: 0.8;
     }
     .gif-image {
       margin-top: 3vh;
       max-height: 35vh;
-      height: auto;
-      border-radius: 10px;
+      width: auto;
+      border-radius: 12px;
     }
-    @media (max-width: 400px) {
-      .main-word { font-size: 25vh; }
+    @media (max-width: 480px) {
+      .main-word { font-size: 24vh; }
       .sub-text { font-size: 6vh; }
       .gif-image { max-height: 30vh; }
     }
   </style>
 </head>
 <body>
-  <div class="main-word">NEE</div>
-  <div class="sub-text">HOLD YOUR DAB</div>
-  <img src="https://media.giphy.com/media/fhLgA6nJec3Cw/giphy.gif" alt="Verdrietig kind" class="gif-image">
+  <div class="main-word">JA</div>
+  <div class="sub-text">ER MAG GEDABD WORDEN</div>
+  <img
+    src="https://media.giphy.com/media/A4R8sdUG7G9TG/giphy.gif"
+    alt="Feest GIF"
+    class="gif-image"
+  />
 </body>
 </html>
-
